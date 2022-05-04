@@ -35,19 +35,19 @@ export default function ThumbSlider() {
         }}
       >
           <SwiperSlide>
-                    <img src="/image/detail-menu/raspberry-ripple-cake/1.webp" />
+                    <img src="/image/detail-menu/cake/raspberry-ripple-cake/1.webp" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src="/image/detail-menu/raspberry-ripple-cake/2.webp" />
+                    <img src="/image/detail-menu/cake/raspberry-ripple-cake/2.webp" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src="/image/detail-menu/raspberry-ripple-cake/3.webp" />
+                    <img src="/image/detail-menu/cake/raspberry-ripple-cake/3.webp" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src="/image/detail-menu/raspberry-ripple-cake/4.webp" />
+                    <img src="/image/detail-menu/cake/raspberry-ripple-cake/4.webp" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src="/image/detail-menu/raspberry-ripple-cake/5.webp" />
+                    <img src="/image/detail-menu/cake/raspberry-ripple-cake/5.webp" />
                 </SwiperSlide>
       </Swiper>
       <Swiper
@@ -61,19 +61,19 @@ export default function ThumbSlider() {
         className="mySwiper"
       >
          <SwiperSlide>
-                    <img src="/image/detail-menu/raspberry-ripple-cake/1.webp" />
+                    <img src="/image/detail-menu/cake/raspberry-ripple-cake/1.webp" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src="/image/detail-menu/raspberry-ripple-cake/2.webp" />
+                    <img src="/image/detail-menu/cake/raspberry-ripple-cake/2.webp" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src="/image/detail-menu/raspberry-ripple-cake/3.webp" />
+                    <img src="/image/detail-menu/cake/raspberry-ripple-cake/3.webp" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src="/image/detail-menu/raspberry-ripple-cake/4.webp" />
+                    <img src="/image/detail-menu/cake/raspberry-ripple-cake/4.webp" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src="/image/detail-menu/raspberry-ripple-cake/5.webp" />
+                    <img src="/image/detail-menu/cake/raspberry-ripple-cake/5.webp" />
                 </SwiperSlide>
       </Swiper>
     </>

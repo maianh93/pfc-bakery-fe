@@ -49,11 +49,11 @@ const HomeMenuDemoList2 = ({ data }) => {
         <Container maxWidth="lg">
             <Grid container spacing={2}>
                 <Grid item xs={6}>
-                    <img src="/image/home/home-menu-demo/cake/block-5.jpg" alt="ice-cream-home-menu" />
+                    <img src="/image/home/menu/1.webp" alt="ice-cream-home-menu" />
                 </Grid>
                 <Grid item xs={6}>
-                    <p>Delecious cupcake</p>
-                    <h2>Cupcake</h2>
+                    <p>Delecious cake</p>
+                    <h2>CAKES</h2>
                     <List sx={{ width: '100%', maxWidth: 360, bgcolor: 'background.paper' }}>
                         {cupCakeData.map(i => (
                             <div>

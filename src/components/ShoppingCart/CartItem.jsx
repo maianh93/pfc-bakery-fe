@@ -3,6 +3,8 @@ import { Icon } from '@mui/material';
 import KeyboardArrowUpOutlinedIcon from '@mui/icons-material/KeyboardArrowUpOutlined';
 import KeyboardArrowDownOutlinedIcon from '@mui/icons-material/KeyboardArrowDownOutlined';
 
+const numberFormater = new Intl.NumberFormat('de-DE');
+
 const CartItem = (props) => {
     // {name, price, image}
     return (
@@ -13,7 +15,7 @@ const CartItem = (props) => {
                 </div>
                 <div className={styles.cart_info}>
                     <h4>{props.name}</h4>
-                    <p>${props.price}</p>
+                    <p>{numberFormater.format(props.price)} đ</p>
                     <span className={styles.cart_remove} onClick={() => props.deleteItem(props.id)}>remove</span>
                 </div>
             </div>

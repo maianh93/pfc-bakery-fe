@@ -9,6 +9,7 @@ import Layout from "./components/Layout/Layout";
 import Menu from "./pages/Menu/Menu";
 import Product from "./pages/Product/Product"
 import Cart from "./pages/Cart/Cart";
+import Login from "./pages/Account/Login";
 
 ReactDOM.render(
   <React.StrictMode>
@@ -21,7 +22,7 @@ ReactDOM.render(
           <Route path="/product-detail" element={<Product />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/cart" element={<Cart />} />
-          <Route path="/profile" element={<Contact />} />
+          <Route path="/account/login" element={<Login />} />
         </Route>
       </Routes>
     </BrowserRouter>  

@@ -28,40 +28,40 @@ const carts = [
   {
     product: {
       id: 1,
-      name: "Raspberry Ripple Cake",
-      price: 399.99,
+      name: "Caramel Rolo Cake",
+      price: 550000,
       image:
-        "/image/detail-menu/raspberry-ripple-cake/1.webp",
+        "/image/detail-menu/cake/caramel-rolo-cake/1.webp",
     },
     quantity: 1,
   },
   {
     product: {
-      id: 2,
-      name: "Raspberry Ripple Cake",
-      price: 399.99,
+      id: 1,
+      name: "Caramel Rolo Cake",
+      price: 550000,
       image:
-        "/image/detail-menu/raspberry-ripple-cake/1.webp",
+        "/image/detail-menu/cake/caramel-rolo-cake/1.webp",
     },
     quantity: 1,
   },
   {
     product: {
-      id: 3,
-      name: "Raspberry Ripple Cake",
-      price: 399.99,
+      id: 1,
+      name: "Caramel Rolo Cake",
+      price: 550000,
       image:
-       "/image/detail-menu/raspberry-ripple-cake/1.webp",
+        "/image/detail-menu/cake/caramel-rolo-cake/1.webp",
     },
     quantity: 1,
   },
   {
     product: {
-      id: 4,
-      name: "Raspberry Ripple Cake",
-      price: 399.99,
+      id: 1,
+      name: "Caramel Rolo Cake",
+      price: 550000,
       image:
-        "/image/detail-menu/raspberry-ripple-cake/1.webp",
+        "/image/detail-menu/cake/caramel-rolo-cake/1.webp",
     },
     quantity: 1,
   },

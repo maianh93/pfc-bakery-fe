@@ -1,0 +1,58 @@
+.main_content {
+    overflow: hidden;
+}
+
+.account_section {
+    position: relative;
+    padding: 70px 0;
+    min-height: 820px;
+    width: 100%;
+    display: table;
+    text-align: center;
+}
+
+.shopify_section{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    display: inline-block;
+}
+
+.shopify_image {
+    background-image: url(../../../public/image/login.webp);
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.form {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 0 1.25rem;
+}
+
+.form_center {
+    max-width: 660px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 0 0 1.5625rem 1.5625rem;
+    position: relative;
+    z-index: 9;
+}
+
+.box {
+    background: #fff;
+    border: 1px solid #eaf4e4;
+    padding: 2.125rem 4.0625rem 3rem;
+    position: relative;
+}
+
+.page_title {
+    padding: 2.125rem 0;
+    text-align: center;
+}

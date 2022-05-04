@@ -135,7 +135,7 @@ const Header = () => {
                 <NavLink to="/cart">
                   <CartIcon />
                 </NavLink>
-                <NavLink to="/profile">
+                <NavLink to="/account/login">
                   <Tooltip title="Open settings">
                     <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
                       <Avatar alt="Remy Sharp" src="" />

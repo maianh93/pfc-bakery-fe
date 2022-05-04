@@ -53,3 +53,7 @@ a {
 ul, li {
   list-style: none;
 }
+
+input {
+  overflow: hidden;
+}
