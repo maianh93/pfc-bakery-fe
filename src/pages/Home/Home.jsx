@@ -1,7 +1,7 @@
 import Promotion from "../../components/Promotion/Promotion";
 import Services from "../../components/Services/Services";
 import Slider from "../../components/Slider/Slider";
-import About from "../../components/About/About";
+import HomeAbout from "../../components/HomeAbout/HomeAbout";
 import FooterSlider from "../../components/FooterSlider/FooterSlider";
 import HomeMenuDemoList from "../../components/HomeMenuDemoList/HomeMenuDemoList";
 import HomeMenuDemoList2 from "../../components/HomeMenuDemoList/HomeMenuDemoList2";
@@ -11,7 +11,7 @@ const Home = () => {
       <div>
         <Slider />
         <Services />
-        <About />
+        <HomeAbout />
         <Promotion />
         <HomeMenuDemoList/>
         <HomeMenuDemoList2/>

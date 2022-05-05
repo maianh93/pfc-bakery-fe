@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
+.content {
+    font-family: 'Libre Baskerville' !important;
+    font-style: italic;
+    color: gray;
+}
+
+.title {
+    text-transform: uppercase;
+    padding-top: 20px;
+}
+
+.read_more {
+    display: inline;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+

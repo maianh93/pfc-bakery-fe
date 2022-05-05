@@ -16,7 +16,7 @@ const Footer = () => {
       >
         <Container maxWidth="lg">
           <Grid container spacing={5}>
-            <Grid item xs={12} sm={4}>
+            <Grid item xs={12} sm={4} className={`${styles.box}`}>
               <Box borderBottom={1}>Logo</Box>
               <Box href="/" color="inherit">
                 <p>25 Hồ Đắc Di - Đống Đa - Hà Nội</p>
@@ -28,25 +28,25 @@ const Footer = () => {
                 <p>plutoicecreamandcake.com.vn</p>
               </Box>
             </Grid>
-            <Grid item xs={12} sm={4}>
+            <Grid item xs={12} sm={4} className={`${styles.box}`}>
               <Box borderBottom={1}>THÔNG TIN CƠ BẢN</Box>
-              <Box href="/" color="inherit">
+              <Box href="/" color="inherit" className='cursor'>
                 <p>Giới thiệu</p>
               </Box>
-              <Box href="/" color="inherit">
+              <Box href="/" color="inherit" className='cursor'>
                 <p>Tin tức</p>
               </Box>
-              <Box href="/" color="inherit">
+              <Box href="/" color="inherit" className='cursor'>
                 <p>Nhượng quyền</p>
               </Box>
-              <Box href="/" color="inherit">
+              <Box href="/" color="inherit" className='cursor'>
                 <p>Điều khoản sử dụng</p>
               </Box>
-              <Box href="/" color="inherit">
+              <Box href="/" color="inherit" className='cursor'>
                 <p>Chính sách bảo mật</p>
               </Box>
             </Grid>
-            <Grid item xs={12} sm={4}>
+            <Grid item xs={12} sm={4} className={styles.box}>
               <Box borderBottom={1}>TẢI ỨNG DỤNG</Box>
               <Box href="/" color="inherit">
                 <div className={`${styles.footer__download} cursor`}>

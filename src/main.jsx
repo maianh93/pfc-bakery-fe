@@ -10,6 +10,7 @@ import Menu from "./pages/Menu/Menu";
 import Product from "./pages/Product/Product"
 import Cart from "./pages/Cart/Cart";
 import Login from "./pages/Account/Login";
+import Register from "./pages/Account/Register";
 
 ReactDOM.render(
   <React.StrictMode>
@@ -23,6 +24,7 @@ ReactDOM.render(
           <Route path="/contact" element={<Contact />} />
           <Route path="/cart" element={<Cart />} />
           <Route path="/account/login" element={<Login />} />
+          <Route path="/account/register" element={<Register />} />
         </Route>
       </Routes>
     </BrowserRouter>  

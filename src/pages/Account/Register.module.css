@@ -3,7 +3,7 @@
 }
 
 .CustomerLoginTitle {
-    color: var(--green-color);
+    color: var(--pink-color);
     text-transform: uppercase;
     font-weight: 700;
 }
@@ -20,7 +20,7 @@
 .shopify_section{
     position: absolute;
     top: 0;
-    right: 0;
+    left: 0;
     width: 50%;
     height: 100%;
     display: inline-block;
@@ -71,6 +71,7 @@
 .email_input, .password_input {
     margin-bottom: 1.25rem;
     border: 1px var(--white-color) solid;
+    color: #fbdcdc;
 }
 
 .email_input input, .password_input input{
@@ -92,8 +93,8 @@
 
 .signin_button {
     color: var(--white-color);
-    background-color:  var(--green-color);
-    border: 2px solid var(--green-color);
+    background-color:  var(--pink-color);
+    border: 2px solid var(--pink-color);
     width: 100%;
     margin-bottom: 1.25rem;
     display: inline-block;
@@ -115,9 +116,9 @@
 }
 
 .create_account_button {
-    color: var(--green-color);
+    color: var(--pink-color);
     background-color:  var(--white-color);
-    border: 2px solid var(--green-color);
+    border: 2px solid var(--pink-color);
     width: 100%;
     margin-bottom: 1.25rem;
     display: inline-block;
@@ -138,14 +139,23 @@
     font-weight: 500;
 }
 
-.signin_button:hover, .create_account_button:hover {
+.signin_button:hover {
     color: #fff;
-    background-color: var(--pink-color);
-    border-color: var(--pink-color);
+    background-color: #f4a33f;
+    border-color: #f4a33f;
     animation: pulse .25s cubic-bezier(.785,.135,.15,.86);
     transition: background-color .15s linear 0s,color .15s linear 0s,border .15s linear 0s;
 }
 
+.create_account_button:hover {
+    color: #fff;
+    background-color: var(--green-color);
+    border-color: var(--green-color);
+    animation: pulse .25s cubic-bezier(.785,.135,.15,.86);
+    transition: background-color .15s linear 0s,color .15s linear 0s,border .15s linear 0s;
+}
+
+
 .forgot_password {
-    color: var(--green-color);
+    color: var(--pink-color);
 }

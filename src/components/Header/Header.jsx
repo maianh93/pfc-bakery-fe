@@ -33,7 +33,6 @@ const pages = [
   { name: 'Về chúng tôi', linkTo: 'about' },
   { name: 'Liên hệ', linkTo: '/contact' }
 ];
-const settings = ['Profile', 'Logout'];
 
 const Header = () => {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
@@ -50,9 +49,6 @@ const Header = () => {
     setAnchorElNav(null);
   };
 
-  const handleCloseUserMenu = () => {
-    setAnchorElUser(null);
-  };
 
   return (
     <header>
@@ -136,7 +132,7 @@ const Header = () => {
                   <CartIcon />
                 </NavLink>
                 <NavLink to="/account/login">
-                  <Tooltip title="Open settings">
+                  <Tooltip title="Tài khoản">
                     <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
                       <Avatar alt="Remy Sharp" src="" />
                     </IconButton>
@@ -145,23 +141,8 @@ const Header = () => {
                     sx={{ mt: '45px' }}
                     id="menu-appbar"
                     anchorEl={anchorElUser}
-                    anchorOrigin={{
-                      vertical: 'top',
-                      horizontal: 'right',
-                    }}
                     keepMounted
-                    transformOrigin={{
-                      vertical: 'top',
-                      horizontal: 'right',
-                    }}
-                    open={Boolean(anchorElUser)}
-                    onClose={handleCloseUserMenu}
                   >
-                    {settings.map((setting) => (
-                      <MenuItem key={setting} onClick={handleCloseUserMenu}>
-                        <Typography textAlign="center">{setting}</Typography>
-                      </MenuItem>
-                    ))}
                   </Menu>
                 </NavLink>
               </Box>
