@@ -52,16 +52,16 @@ const HomeMenuDemoList2 = ({ data }) => {
                     <img src="/image/home/menu/1.webp" alt="ice-cream-home-menu" />
                 </Grid>
                 <Grid item xs={6}>
-                    <p>Delecious cake</p>
-                    <h2>CAKES</h2>
+                    <p className={styles.content}>Delecious cakes</p>
+                    <h2 className={styles.title}>CAKES</h2>
                     <List sx={{ width: '100%', maxWidth: 360, bgcolor: 'background.paper' }}>
                         {cupCakeData.map(i => (
-                            <div>
-                                <ListItem alignItems="flex-start" className={styles.list_item}>
+                            <div key={i.name}>
+                                <ListItem  alignItems="flex-start" className={styles.list_item}>
                                     <ListItemAvatar>
                                         <Avatar alt="Remy Sharp" src={i.img} />
                                     </ListItemAvatar>
-                                    <ListItemText
+                                    <ListItemText  
                                         primary={i.name}
                                         secondary={
                                             <React.Fragment>
@@ -77,7 +77,7 @@ const HomeMenuDemoList2 = ({ data }) => {
                                             </React.Fragment>
                                         }
                                     />
-                                    <ListItemText
+                                    <ListItemText 
                                         primary={`${numberFormater.format(i.price)}đ`}
                                     />
                                 </ListItem>

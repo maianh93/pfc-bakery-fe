@@ -51,6 +51,26 @@
     z-index: 9;
 }
 
+.form_center::before {
+    content: '';
+    width: 25px;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background: #fbdcdc;
+}
+
+.form_center::after {
+    content: '';
+    width: 100%;
+    height: 25px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    background: #fbdcdc;
+}
+
 .box {
     background: #fff;
     border: 1px solid #eaf4e4;
@@ -71,7 +91,7 @@
 .email_input, .password_input {
     margin-bottom: 1.25rem;
     border: 1px var(--white-color) solid;
-    color: #fbdcdc;
+    background: #fbdcdc;
 }
 
 .email_input input, .password_input input{
@@ -79,7 +99,7 @@
     text-align: center;
     font-size: 1rem;
     color: #918879;
-    background: #eaf4e4;
+    background: #fbdcdc;
     padding: 1.8125rem 4.375rem 1.5625rem;
     line-height: 1.75;
     margin: 0;

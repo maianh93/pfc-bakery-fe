@@ -10,6 +10,7 @@ import "swiper/css/navigation";
 // import required modules
 import { Autoplay, Pagination, Navigation } from "swiper";
 import styles from "./Slider.module.css"
+import Button from "../Button/Button"
 
 const Slider = () => {
   return (
@@ -28,7 +29,17 @@ const Slider = () => {
         modules={[Autoplay, Pagination, Navigation]}
         className={styles.banner}
       >
-        <SwiperSlide><img src="/image/home/banner/banner-order.jpg" alt="" /></SwiperSlide>
+        
+        <SwiperSlide>
+        <div className={styles.banner_container}>
+          <img src="/image/home/banner/banner-order.jpg" alt="" />
+          <Button 
+          className={styles.banner_button}
+          title={"OK"}
+          />
+        </div>
+          </SwiperSlide>
+          
         <SwiperSlide><img src="/image/home/banner/banner-promotion.jpg" alt="" /></SwiperSlide>
       </Swiper>
     </div>

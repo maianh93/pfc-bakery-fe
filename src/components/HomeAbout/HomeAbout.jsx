@@ -3,9 +3,11 @@ import Container from "@mui/material/Container";
 import { Grid } from "@mui/material";
 import { render } from "react-dom";
 import { Parallax, Background } from "react-parallax";
-import ArrowRightAltOutlinedIcon from '@mui/icons-material/ArrowRightAltOutlined';
+import MoreHorizOutlinedIcon from '@mui/icons-material/MoreHorizOutlined';
 
 import styles from "./HomeAbout.module.css"
+import Button from "../Button/Button";
+import { Link } from "react-router-dom";
 
 
 const style = {
@@ -32,10 +34,15 @@ const SubHomeAbout = () => {
         <Grid item xs={6}>
           <p className={styles.content}>Triết lý kinh doanh</p>
           <h3 className={styles.title}>Về chúng tôi</h3>
-          <p>Bán kem nhất định phải bắt đầu bán vào mùa đông, bởi mùa đông khách hàng ít, buộc bạn phải giảm chi phí để cải thiện dịch vụ.</p>
-          <p>Nếu như có thể tồn tại được trong mùa đông, thì sẽ không sợ không cạnh tranh được vào mùa hè. Đồng thời chỉ có trải qua khó khăn mới biết hưởng thụ cuộc sống</p>
-          <p>Nếu muốn trong hoàn cảnh tốt, sự nghiệp có thể phát triển không ngừng, thì nhất định phải được tôi luyện trong những hoàn cảnh khó khăn.</p>
-          <div><p className={`${styles.read_more} cursor`}>Chi tiết</p> <ArrowRightAltOutlinedIcon className={styles.arrow_right}/></div>
+          <MoreHorizOutlinedIcon/>
+          <p className={styles.p_about}>Bán kem nhất định phải bắt đầu bán vào mùa đông, bởi mùa đông khách hàng ít, buộc bạn phải giảm chi phí để cải thiện dịch vụ.</p>
+          <p className={styles.p_about}>Nếu như có thể tồn tại được trong mùa đông, thì sẽ không sợ không cạnh tranh được vào mùa hè. Đồng thời chỉ có trải qua khó khăn mới biết hưởng thụ cuộc sống</p>
+          <p className={styles.p_about}>Nếu muốn trong hoàn cảnh tốt, sự nghiệp có thể phát triển không ngừng, thì nhất định phải được tôi luyện trong những hoàn cảnh khó khăn.</p> 
+         <Link to="/about">
+         <Button 
+          title={"Chi tiết"}
+         />
+         </Link>
         </Grid>
       </Grid>
     </Container>

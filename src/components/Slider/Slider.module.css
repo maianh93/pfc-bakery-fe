@@ -7,3 +7,23 @@ img {
   width: 100%;
   height: 100%;
 }
+
+.banner {
+  position: relative;
+}
+
+.banner_container {
+  position: relative;
+}
+
+.banner_container img{
+  width: 100%;
+}
+
+.banner_button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}

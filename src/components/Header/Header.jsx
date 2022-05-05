@@ -96,8 +96,8 @@ const Header = () => {
                   }}
                 >
                   {pages.map((page) => (
-                    <NavLink to={page.linkTo}>
-                      <MenuItem key={page.name} onClick={handleCloseNavMenu}>
+                    <NavLink to={page.linkTo} key={page.name}>
+                      <MenuItem onClick={handleCloseNavMenu}>
                         <Typography textAlign="center">{page.name}</Typography>
                       </MenuItem>
                     </NavLink>

@@ -1,0 +1,7 @@
+.content {
+    font-family: 'Libre Baskerville' !important;
+    font-style: italic;
+    color: var(--pink-color);
+    margin-top: 10px;
+    font-size: 2rem;
+}

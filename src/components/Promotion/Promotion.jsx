@@ -66,13 +66,13 @@ const image1 =
 const PromotionDemoList = ({ data }) => {
   return (
     <Container maxWidth="lg">
-      <p>Tín đồ kem Pluto sẽ không thể bỏ qua:</p>
-      <h2>KHUYẾN MẠI HÀNG TUẦN</h2>
+      <p className={styles.content}>Tín đồ Pluto Ice Cream & Cake sẽ không thể bỏ qua:</p>
+      <h2 className={styles.title}>KHUYẾN MẠI HÀNG TUẦN</h2>
       <Grid container spacing={2}>
         <Grid item xs={6}>
           <List sx={{ width: '100%', maxWidth: 360, bgcolor: 'background.paper' }}>
             {data.map(i => (
-              <div>
+              <div key={i.img}>
                 <ListItem alignItems="flex-start" className={styles.list_item}>
                   <Grid item xs={9}>
                     <ListItemText

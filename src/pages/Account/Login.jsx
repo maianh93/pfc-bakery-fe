@@ -43,7 +43,7 @@ const Login = () => {
                       
                       <div className="text-center buttons-set">
 
-                        <a className={styles.forgot_password} href="#recover" id="RecoverPassword">Forgot your password?</a>
+                        <a className={styles.forgot_password} href="#recover" id="RecoverPassword">Quên mật khẩu?</a>
 
                       </div>
                       <input type="hidden" name="return_url" />

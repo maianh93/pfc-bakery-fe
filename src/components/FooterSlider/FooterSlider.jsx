@@ -50,7 +50,7 @@ const FooterSlider = () => {
         modules={[Autoplay, Pagination]}
         className="mySwiper"
       >
-        {pictures.map(p => (<SwiperSlide><img src={p.img} alt="" /></SwiperSlide>))}
+        {pictures.map(p => (<SwiperSlide key={p.img}><img src={p.img} alt="" /></SwiperSlide>))}
       </Swiper>
       
     </div>

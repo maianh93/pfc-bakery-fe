@@ -14,3 +14,15 @@
     height: 200px;
     width: 200px;
 }
+
+.content {
+    font-family: 'Libre Baskerville' !important;
+    font-style: italic;
+    color: gray;
+    margin-top: 10px;
+}
+
+.title {
+    text-transform: uppercase;
+    padding-top: 20px;
+}

@@ -1,58 +1,50 @@
 /* button */
 
-.btn {
-    color: #fff;
-    border-color: var(--pri-3-color);
-    font-weight: 400;
-    font-size: 1rem;
-  
-    background-color: var(--pri-3-color);
-    margin: 6px 4px 0;
-    min-width: 130px;
-    padding: 6px 18px;
-  
-    outline: none;
-    transition: ease-in-out 0.5s;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
-    border-radius: 18px;
-  
-    text-transform: uppercase;
+
+
+/* CSS */
+.button-81 {
+  background-image: -webkit-linear-gradient(var(--pink-color), #fbdcdc);
+  text-transform: uppercase;
+  border: 0 solid #e2e8f0;
+  border-radius: 1.5rem;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Basier circle",-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: 1.1rem;
+  font-weight: 600;
+  line-height: 1;
+  padding: 1rem 1.6rem;
+  text-align: center;
+  text-decoration: none #0d172a solid;
+  text-decoration-thickness: auto;
+  transition: all .1s cubic-bezier(.4, 0, .2, 1);
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;    
+  animation-duration: 1000ms;
+  transition-timing-function: ease;
+  transition-delay: 0ms;
+}
+
+.button-81:hover {
+  background-image: -webkit-linear-gradient(var(--pink-color), var(--pink-color));
+  border-color: var(--black-color);
+  color: #fff;
+  transition: all .3s;
+  transform: scale(1.02);
+}
+
+.button-81:focus {
+  box-shadow: none;
+}
+
+@media (min-width: 768px) {
+  .button-81 {
+    font-size: 1.125rem;
+    padding: 1rem 2rem;
   }
-  
-  .btn.small {
-    font-size: 13px;
-    min-width: 80px;
-    padding: 2px 8px;
-    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.25);
-  }
-  
-  .btn.white {
-    color: var(--pri-3-color);
-    border-color: #fff;
-    background-color: #fff;
-  }
-  
-  .btn.white:hover {
-    color: #fff;
-    border-color: var(--pri-3-color);
-    background-color: var(--pri-3-color);
-  }
-  
-  .btn:focus {
-    box-shadow: none;
-  }
-  
-  .big-btn {
-    max-width: 280px;
-    margin: 16px auto 0;
-  }
-  
-  .btn:active,
-  .btn:hover {
-    color: #fff;
-    outline: none;
-    border-color: var(--pri-4-color);
-    background-color: var(--pri-4-color);
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
-  }
-  
+}

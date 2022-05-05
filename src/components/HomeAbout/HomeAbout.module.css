@@ -11,9 +11,6 @@
     padding-top: 20px;
 }
 
-.read_more {
-    display: inline;
-    letter-spacing: 2px;
-    font-weight: 500;
+.p_about {
+    margin-bottom: 20px;
 }
-

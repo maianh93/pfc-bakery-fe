@@ -50,11 +50,11 @@ const HomeMenuDemoList = () => {
         <Container maxWidth="lg">
             <Grid container spacing={2}>
                 <Grid item xs={6}>
-                    <p>Hand made ice creams</p>
-                    <h2>ICE CREAMS</h2>
+                    <p className={styles.content}>Hand made ice creams</p>
+                    <h2 className={styles.title}>ICE CREAMS</h2>
                     <List sx={{ width: '100%', maxWidth: 360, bgcolor: 'background.paper' }}>
                         {iceCreamData.map(i => (
-                            <div>
+                            <div key={i.name}>
                                 <ListItem alignItems="flex-start" className={styles.list_item}>
                                     <ListItemAvatar>
                                         <Avatar alt="Remy Sharp" src={i.img} />
