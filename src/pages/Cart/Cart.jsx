@@ -5,6 +5,8 @@ import { useState } from "react";
 import CartList from "../../components/ShoppingCart/CartList";
 import CartFooter from "../../components/ShoppingCart/CartFooter";
 
+import styles from "./Cart.module.css"
+
 
 
 const numberFormater = new Intl.NumberFormat('de-DE');
@@ -107,8 +109,8 @@ const ShoppingCart = () => {
   return (
       <div style={style}>
     <Parallax bgImage={image1} strength={500}>
-      <h1>Giỏ hàng của bạn</h1>
-      <div style={{ height: 800 }}>
+      <h1 className={styles.content}>Giỏ hàng của bạn</h1>
+      <div style={{ height: 700 }}>
         <div style={insideStyles}>
           <CartList 
            carts={state}

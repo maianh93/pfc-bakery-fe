@@ -15,7 +15,8 @@ const CartFooter = (props) => {
             <h4>Total</h4>
             <h4 className={styles.total_price}>{numberFormater.format(totalPrice.toFixed(2))}đ</h4>
           </div>
-          <button onClick={props.clearList}>CLEAR CART</button>
+          <button style={{marginRight: "20px"}}>TIẾP TỤC MUA HÀNG</button>
+          <button onClick={props.clearList}>THANH TOÁN</button>
         </div>
       </div>
     );

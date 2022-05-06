@@ -34,7 +34,7 @@ const Slider = () => {
         <div className={styles.banner_container}>
           <img src="/image/home/banner/banner-order.jpg" alt="" />
           <Button 
-          className={styles.banner_button}
+          style={styles.banner_button}
           title={"OK"}
           />
         </div>

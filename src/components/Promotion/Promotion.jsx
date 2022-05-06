@@ -66,7 +66,7 @@ const image1 =
 const PromotionDemoList = ({ data }) => {
   return (
     <Container maxWidth="lg">
-      <p className={styles.content}>Tín đồ Pluto Ice Cream & Cake sẽ không thể bỏ qua:</p>
+      <p className={styles.content}>Tín đồ Pluto Ice Creams & Cakes sẽ không thể bỏ qua:</p>
       <h2 className={styles.title}>KHUYẾN MẠI HÀNG TUẦN</h2>
       <Grid container spacing={2}>
         <Grid item xs={6}>

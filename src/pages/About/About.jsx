@@ -24,16 +24,12 @@ const About = () => {
           </div>
           <div className={styles.box}>
             <div className={styles.box_content}>
-              <h3>Khởi nguồn</h3>
+              <h3>Thuở sơ khai</h3>
               <p className={styles.sub_title}>
-                Thương hiệu bắt nguồn từ cà phê Việt Nam
+                “Chúng tôi mang đến bạn không chỉ kem mà còn là niềm vui”
               </p>
               <p className={styles.paragraph}>
-                Coffee Cup được sinh ra từ niềm đam mê bất tận với
-                hạt cà phê Việt Nam. Qua một chặng đường dài, chúng
-                tôi đã không ngừng mang đến những sản phẩm cà phê
-                thơm ngon, sánh đượm trong không gian thoải mái và
-                lịch sự với mức giá hợp lý.
+              Gần 2 năm trước, có một người trong mình giấc mơ sẽ cho ra đời một quán kem- nơi mà mọi người đều có thể thưởng thức từng muỗng kem mát lạnh và quây quần bên nhau thật ấm áp. Bà Phùng Mai Anh, người có một niềm yêu thích chung dành cho các loại kem cổ điển cùng với niềm khát khao mang đến cho khách hàng niềm vui khi được nếm những viên kem đạt chất lượng cao nhất, và Pluto Ice Cream ra đời.
               </p>
             </div>
           </div>
@@ -47,21 +43,17 @@ const About = () => {
 
           <div className={styles.box}>
             <div className={styles.box_content}>
-              <h3>Khởi nguồn</h3>
+              <h3>Phát triển và thách thức</h3>
               <p className={styles.sub_title}>
-                Thương hiệu bắt nguồn từ cà phê Việt Nam
+                "Mùa đông đầu tiên"
               </p>
               <p className={styles.paragraph}>
-                Coffee Cup được sinh ra từ niềm đam mê bất tận với
-                hạt cà phê Việt Nam. Qua một chặng đường dài, chúng
-                tôi đã không ngừng mang đến những sản phẩm cà phê
-                thơm ngon, sánh đượm trong không gian thoải mái và
-                lịch sự với mức giá hợp lý.
+                Pluto Ice Creams dường như khá điêu đứng trong mùa đông đầu tiên, khi lượng khách thực sự không nhiều. Chính lúc đó, Pluto Ice Creams đã tìm thấy một hướng đi song hành cùng với thương hiệu, đó là Bakery. Nếu như có thể tồn tại được trong mùa đông, thì sẽ không sợ không cạnh tranh được vào mùa hè. Nếu muốn trong hoàn cảnh tốt, sự nghiệp có thể phát triển không ngừng, thì nhất định phải được tôi luyện trong những hoàn cảnh khó khăn.
               </p>
             </div>
           </div>
           <div className={`${styles.box} ${styles.box_image}`}>
-            <img src="../image/image-22.jpg" alt="first-about" />
+            <img src="../image/login.webp" alt="first-about" />
           </div>
         </Stack>
         <Stack
@@ -71,21 +63,18 @@ const About = () => {
           spacing={2}
         >
           <div className={`${styles.box} ${styles.box_image}`}>
-            <img src="../image/image-22.jpg" alt="first-about" />
+            <img src="../image/detail-menu/ice-cream/strawberry-ice-cream.jpg" alt="first-about" />
           </div>
           <div className={styles.box}>
             <div className={styles.box_content}>
-              <h3>Khởi nguồn</h3>
+              <h3>Vươn tới những tầm cao</h3>
               <p className={styles.sub_title}>
-                Thương hiệu bắt nguồn từ cà phê Việt Nam
+                "Bất kể già hay trẻ, mọi người đều đến Pluto với sự mong đợi niềm vui sẽ đến từ viên kem và bánh ngọt mà họ yêu thích"
               </p>
               <p className={styles.paragraph}>
-                Coffee Cup được sinh ra từ niềm đam mê bất tận với
-                hạt cà phê Việt Nam. Qua một chặng đường dài, chúng
-                tôi đã không ngừng mang đến những sản phẩm cà phê
-                thơm ngon, sánh đượm trong không gian thoải mái và
-                lịch sự với mức giá hợp lý.
+              Trong cuộc sống chúng ta, niềm vui được tạo nên từ vô vàn hình thái khác nhau. Có những niềm vui đến một cách rất bình dị và giản đơn, có lúc niềm vui lại đến từ sự mong đợi. Đó cũng có thể là những khoảnh khắc hạnh phúc tồn tại lâu dài, và đôi khi, niềm vui cần một chút gì đó thôi thúc trong ta để cảm nhận được.  Đối với các bạn bè ở khắp mọi nơi, kem và bánh ngọt cũng có thể đem lại những niềm vui khác nhau.
               </p>
+              <p className={styles.paragraph}>Hãy để Pluto Ice Creams & Cakes được phục vụ bạn theo cách mà bạn mong muốn!</p>
             </div>
           </div>
         </Stack>

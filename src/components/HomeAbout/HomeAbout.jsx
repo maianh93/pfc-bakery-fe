@@ -36,7 +36,7 @@ const SubHomeAbout = () => {
           <h3 className={styles.title}>Về chúng tôi</h3>
           <MoreHorizOutlinedIcon/>
           <p className={styles.p_about}>Bán kem nhất định phải bắt đầu bán vào mùa đông, bởi mùa đông khách hàng ít, buộc bạn phải giảm chi phí để cải thiện dịch vụ.</p>
-          <p className={styles.p_about}>Nếu như có thể tồn tại được trong mùa đông, thì sẽ không sợ không cạnh tranh được vào mùa hè. Đồng thời chỉ có trải qua khó khăn mới biết hưởng thụ cuộc sống</p>
+          <p className={styles.p_about}>Nếu như có thể tồn tại được trong mùa đông, thì không sợ không cạnh tranh được vào mùa hè.</p>
           <p className={styles.p_about}>Nếu muốn trong hoàn cảnh tốt, sự nghiệp có thể phát triển không ngừng, thì nhất định phải được tôi luyện trong những hoàn cảnh khó khăn.</p> 
          <Link to="/about">
          <Button 

@@ -25,7 +25,7 @@ const Footer = () => {
                 <p>0888 202 082</p>
               </Box>
               <Box href="/" color="inherit">
-                <p>plutoicecreamandcake.com.vn</p>
+                <p>plutoicecreamsandcakes.com.vn</p>
               </Box>
             </Grid>
             <Grid item xs={12} sm={4} className={`${styles.box}`}>
