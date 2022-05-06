@@ -27,7 +27,6 @@ const Menu = () => (
         <h1>MENU</h1>
         <p className={styles.content}>Ice Creams & Cakes</p>
         </div>
-        
       </div>
     </Parallax>
     <MainMenu />

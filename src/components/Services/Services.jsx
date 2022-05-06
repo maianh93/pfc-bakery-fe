@@ -26,7 +26,7 @@ const Services = () => {
   return (<div>
     <Grid container spacing={2}>
       {services.map((s) => (
-             <Grid item xs={3} key={s.title}>
+             <Grid item lg={3} md={6} xs={12} key={s.title}>
              <div className={styles.service_item}>
                <div className={styles.service_image}>
                   <img src={s.img} alt="" />

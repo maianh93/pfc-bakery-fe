@@ -9,6 +9,7 @@ export default function CustomIcons() {
   return (
     <Stack spacing={2}>
       <Pagination
+      style={{marginTop: "50px", marginBottom: "30px"}}
         className='pagination'
         count={10}
         renderItem={(item) => (

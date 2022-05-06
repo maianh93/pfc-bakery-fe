@@ -49,9 +49,9 @@ const MainMenu = () => {
     <Container>
       <Box sx={{ flexGrow: 1 }}>
         <Grid container spacing={2}>
-          <Grid item xs={3}>
+          <Grid item xs={12} md={3} lg={3} style={{ marginTop: "30px" }}>
             <FormControl>
-            <FormLabel id="demo-radio-buttons-group-label">Thực đơn</FormLabel>
+              <FormLabel id="demo-radio-buttons-group-label">Thực đơn</FormLabel>
               <RadioGroup
                 aria-labelledby="demo-radio-buttons-group-label"
                 defaultValue="all"
@@ -94,14 +94,43 @@ const MainMenu = () => {
                     ))}
                   </TextField>
                 </div>
-                </Box>
+              </Box>
             </FormControl>
           </Grid>
-          <Grid item xs={9}>
-            <Link to="/product-detail"><Card /></Link>
-            <Card />
-            <Card />
-            <Card />
+          <Grid item xs={12} md={9} lg={9}>
+            <Grid container spacing={2}>
+              <Grid item xs={12} md={4} lg={4}>
+                <Card />
+              </Grid>
+              <Grid item xs={12} md={4} lg={4}>
+                <Card />
+              </Grid>
+              <Grid item xs={12} md={4} lg={4}>
+                <Card />
+              </Grid>
+            </Grid>
+            <Grid container spacing={2}>
+              <Grid item xs={12} md={4} lg={4}>
+                <Card />
+              </Grid>
+              <Grid item xs={12} md={4} lg={4}>
+                <Card />
+              </Grid>
+              <Grid item xs={12} md={4} lg={4}>
+                <Card />
+              </Grid>
+            </Grid>
+            <Grid container spacing={2}>
+              <Grid item xs={12} md={4} lg={4}>
+                <Card />
+              </Grid>
+              <Grid item xs={12} md={4} lg={4}>
+                <Card />
+              </Grid>
+              <Grid item xs={12} md={4} lg={4}>
+                <Card />
+              </Grid>
+            </Grid>
             <CustomIcons />
           </Grid>
         </Grid>

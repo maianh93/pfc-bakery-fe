@@ -35,7 +35,7 @@ const Slider = () => {
           <img src="/image/home/banner/banner-order.jpg" alt="" />
           <Button 
           style={styles.banner_button}
-          title={"OK"}
+          title={"Đặt hàng ngay !"}
           />
         </div>
           </SwiperSlide>

@@ -69,7 +69,7 @@ const About = () => {
             <div className={styles.box_content}>
               <h3>Vươn tới những tầm cao</h3>
               <p className={styles.sub_title}>
-                "Bất kể già hay trẻ, mọi người đều đến Pluto với sự mong đợi niềm vui sẽ đến từ viên kem và bánh ngọt mà họ yêu thích"
+                "Bất kể già hay trẻ, mọi người đều sẽ đến Pluto với sự mong đợi niềm vui đến từ viên kem và bánh ngọt mà họ yêu thích"
               </p>
               <p className={styles.paragraph}>
               Trong cuộc sống chúng ta, niềm vui được tạo nên từ vô vàn hình thái khác nhau. Có những niềm vui đến một cách rất bình dị và giản đơn, có lúc niềm vui lại đến từ sự mong đợi. Đó cũng có thể là những khoảnh khắc hạnh phúc tồn tại lâu dài, và đôi khi, niềm vui cần một chút gì đó thôi thúc trong ta để cảm nhận được.  Đối với các bạn bè ở khắp mọi nơi, kem và bánh ngọt cũng có thể đem lại những niềm vui khác nhau.
